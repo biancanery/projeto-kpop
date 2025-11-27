@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KPOP — Gerações do Pop Coreano</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --preto: #0d0d0d;
+      --vermelho: #e50914;
+      --cinza: #222;
+      --branco: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Oswald', sans-serif;
+      background: var(--preto);
+      color: var(--branco);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--vermelho);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .brand {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      color: var(--branco);
+      text-shadow: 3px 3px var(--cinza);
+      letter-spacing: 2px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+    .menu a {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: var(--branco);
+      text-transform: uppercase;
+      margin: 0 12px;
+      transition: 0.3s;
+    }
+    .menu a:hover {
+      color: var(--preto);
+      background: var(--branco);
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(180deg, var(--cinza), var(--preto));
+    }
+    .hero h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.8rem;
+      color: var(--vermelho);
+      text-shadow: 4px 4px var(--cinza);
+      letter-spacing: 3px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #ddd;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .icons {
+      margin-top: 20px;
+      font-size: 1.8rem;
+    }
+    .icons i {
+      margin: 0 12px;
+      color: var(--vermelho);
+      transition: transform 0.3s;
+    }
+    .icons i:hover {
+      transform: scale(1.2) rotate(-10deg);
+      color: var(--branco);
+    }
+
+    section {
+      padding: 30px 20px;
+    }
+
+    h2 {
+      font-family: 'Anton', sans-serif;
+      color: var(--vermelho);
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px var(--cinza);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 20px;
+    }
+    @media (max-width:700px){ .grid{grid-template-columns:1fr} }
+
+    .card {
+      background: var(--cinza);
+      border: 2px solid var(--vermelho);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 160px; /* menor altura */
+      object-fit: cover;
+    }
+    .card .content {
+      padding: 12px;
+    }
+    .card h3 {
+      font-family: 'Anton', sans-serif;
+      font-size: 1.3rem;
+      color: var(--vermelho);
+      text-transform: uppercase;
+      margin: 6px 0;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #ddd;
+      margin-top: 6px;
+    }
+    .badge {
+      font-family: 'Oswald', sans-serif;
+      background: var(--vermelho);
+      color: var(--branco);
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+
+    footer {
+      background: var(--vermelho);
+      color: var(--branco);
+      text-align: center;
+      padding: 15px;
+      font-weight: bold;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">KPOP</div>
+    <nav class="menu">
+      <a href="#home">Início</a>
+      <a href="#destaques">Grupos</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1>KPOP — Gerações do Pop Coreano</h1>
+      <div class="icons">
+        <i class="fa-solid fa-music"></i>
+      </div>
+    </section>
+
+    <section id="destaques">
+      <h2>Grupos destacados</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="flask.html/💥 2PM 💥.jpg">
+          <div class="content">
+            <span class="badge">2 geração</span>
+            <h3>2PM</h3>
+            <p>
+                2PM é um grupo de K-pop masculino da JYP Entertainment, debutado em 2008 como parte do projeto “One Day”. Eles são conhecidos pelo conceito de “beast idols”, focado em performance poderosa, carisma e presença de palco mais madura. O grupo tem 6 membros Jun. K, Nichkhun, Taecyeon, Wooyoung, Junho e Chansung. Além da carreira musical, os integrantes também se destacam em dramas, cinema, variedades e carreira solo, consolidando o 2PM como um dos grupos masculinos mais influentes da segunda geração do K-pop.
+
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="flask.html/ BTS.jpg">
+          <div class="content">
+            <span class="badge">3 geração</span>
+            <h3>BTS</h3>
+            <p>
+                BTS é um grupo sul-coreano de K-pop formado pela Big Hit Entertainment (atual HYBE Labels) que debutou em 2013. O grupo é composto por RM, Jin, Suga, J-Hope, Jimin, V e Jungkook.
+Eles começaram com um foco forte em hip-hop, mas ao longo dos anos expandiram para diversos estilos musicais. O BTS se tornou mundialmente conhecido por suas letras que abordam juventude, saúde mental, sonhos, pressões sociais e autoaceitação, criando forte conexão com o público.Reconhecido por sua enorme base de fãs, o ARMY, o BTS também quebrou recordes em premiações, charts e tours, tornando-se um dos atos mais influentes da música contemporânea.
+</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="flask.html/enhypen.jpg">
+          <div class="content">
+            <span class="badge">4 geração</span>
+            <h3>ENHYPEN</h3>
+            <p>
+            ENHYPEN é um grupo de K-pop formado em 2020 pela BELIFT LAB por meio do reality I-LAND. O grupo tem sete membros: Heeseung, Jay, Jake, Sunghoon, Sunoo, Jungwon e Ni-ki.
+Eles são conhecidos por seu conceito mais sombrio, elegante e narrativo, com histórias conectadas entre os álbuns — envolvendo temas como identidade, transição e crescimento. O ENHYPEN rapidamente chamou atenção com músicas como “Given-Taken”, “Drunk-Dazed”, “FEVER”, “Bite Me” e “Sweet Venom”.
+O grupo também se destacou pela performance afiada, coreografias intensas e forte presença internacional, tornando-se um dos principais nomes da quarta geração do K-pop.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="flask.html/꒰୨୧꒱.jpg">
+          <div class="content">
+            <span class="badge">4 geração</span>
+            <h3>IVE</h3>
+            <p>IVE é um grupo feminino de K-pop da Starship Entertainment, debutado em 2021. Formado por seis integrantes — Yujin, Gaeul, Rei, Wonyoung, Liz e Leeseo — o grupo ficou conhecido rapidamente pelo conceito de confiança, elegância e “self-love”.
+Elas conquistaram grande popularidade com hits como “ELEVEN”, “LOVE DIVE”, “After LIKE” e “I AM”, combinando visuais marcantes, melodias cativantes e coreografias icônicas. O IVE se destaca por seu som pop sofisticado e pelo impacto nas paradas musicais, sendo um dos grupos mais influentes da quarta geração.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="flask.html/ᡣ ⋅ ⋅ ᪲ა.jpg">
+          <div class="content">
+            <span class="badge">4 geração</span>
+            <h3>TOMORROW X TOGETHER</h3>
+            <p>TXT (Tomorrow X Together) é um grupo de K-pop da HYBE/Big Hit Music, debutado em 2019. Formado por cinco membros — Yeonjun, Soobin, Beomgyu, Taehyun e Hueningkai — o grupo é conhecido por conceitos juvenis, emocionais e fantasiosos, explorando temas como crescimento, amizade, identidade e transições da vida.
+Eles se destacam por vocais fortes, coreografias detalhadas e uma estética narrativa que conecta seus álbuns. Entre seus maiores hits estão “CROWN”, “Blue Hour”, “0X1=LOVESONG”, “Anti-Romantic”, “Good Boy Gone Bad” e “Chasing That Feeling”.
+O TXT é considerado um dos principais grupos da quarta geração, com grande presença global e sucesso em charts como Billboard. </p>
+          </div>
+        </div>
+       <div class="card">
+          <img src="flask.html/CORTIS.jpg.webp">
+          <div class="content">
+            <span class="badge">5 geração</span>
+            <h3>CORTIS</h3>
+            <p>CORTIS é um grupo masculino de K-pop da Big Hit Music, debutado em 18 de agosto de 2025. Formado por Martin, James, Juhoon, Seonghyeon e Keonho, o grupo é conhecido por seu conceito de criatividade livre, inspirado no nome “Color Outside the Lines”.
+Eles se destacam por participar ativamente da produção musical, coreografias e visuais, apresentando uma proposta mais autoral. Seu debut foi forte: o EP de estreia entrou no Billboard 200, mostrando grande impacto internacional logo no início.</p>
+          </div>
+        </div>
+
+           </section>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p style="text-align:center">Este site celebra as Gerações do Pop sul-coreano</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 KPOP — Feito no Brasil 🔥
+  </footer>
+</body>
+</html>
