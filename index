@@ -125,6 +125,7 @@
       width: 100%;
       height: 160px; /* menor altura */
       object-fit: cover;
+      object-position: center;
     }
     .card .content {
       padding: 12px;
@@ -175,7 +176,7 @@
 
   <main>
     <section class="hero" id="home">
-      <h1>KPOP — Gerações do Pop Coreano</h1>
+      <h1>KPOP — Gerações do Pop Sul Coreano</h1>
       <div class="icons">
         <i class="fa-solid fa-music"></i>
       </div>
@@ -196,7 +197,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="flask.html/ BTS.jpg">
+          <img src="flask.html/ BTS.jpeg">
           <div class="content">
             <span class="badge">3 geração</span>
             <h3>BTS</h3>
@@ -207,7 +208,7 @@ Eles começaram com um foco forte em hip-hop, mas ao longo dos anos expandiram p
           </div>
         </div>
         <div class="card">
-          <img src="flask.html/enhypen.jpg">
+          <img src="flask.html/enha.jpeg">
           <div class="content">
             <span class="badge">4 geração</span>
             <h3>ENHYPEN</h3>
@@ -219,7 +220,7 @@ O grupo também se destacou pela performance afiada, coreografias intensas e for
           </div>
         </div>
         <div class="card">
-          <img src="flask.html/꒰୨୧꒱.jpg">
+          <img src="flask.html/ive.jpeg">
           <div class="content">
             <span class="badge">4 geração</span>
             <h3>IVE</h3>
@@ -228,7 +229,7 @@ Elas conquistaram grande popularidade com hits como “ELEVEN”, “LOVE DIVE�
           </div>
         </div>
         <div class="card">
-          <img src="flask.html/ᡣ ⋅ ⋅ ᪲ა.jpg">
+          <img src="flask.html/tomorrowxtogether.jpeg">
           <div class="content">
             <span class="badge">4 geração</span>
             <h3>TOMORROW X TOGETHER</h3>
