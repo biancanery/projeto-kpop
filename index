@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>KPOP — Gerações do Pop Coreano</title>
+  <title>K-POP — Gerações do Pop Coreano</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
       --preto: #0d0d0d;
-      --vermelho: #e50914;
+      --vermelho: #840ff1;
       --cinza: #222;
       --branco: #ffffff;
     }
@@ -166,19 +166,26 @@
 </head>
 <body>
   <header>
-    <div class="brand">KPOP</div>
+    <div class="brand">K-POP</div>
     <nav class="menu">
       <a href="#home">Início</a>
       <a href="#destaques">Grupos</a>
+      <a href="#rock">Rock</a>
+      <a href="#classica">Clássicas</a>
+      <a href="#k-pop">Forró</a>
+      <a href="#mpb">Mpb</a>
+      <a href="#pop">Pop</a>
       <a href="#sobre">Sobre</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <h1>KPOP — Gerações do Pop Sul Coreano</h1>
+      <h1>K-POP — Gerações do Pop Sul Coreano</h1>
       <div class="icons">
-        <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-heart"></i>
+         <i class="fa-solid fa-music"></i>
+        <i class="fa-solid fa-star"></i>
       </div>
     </section>
 
@@ -257,7 +264,7 @@ Eles se destacam por participar ativamente da produção musical, coreografias e
   </main>
 
   <footer>
-    © 2025 KPOP — Feito no Brasil 🔥
+    © 2025 KPOP — Feito no Brasil 
   </footer>
 </body>
 </html>
